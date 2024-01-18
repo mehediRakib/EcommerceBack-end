@@ -48,13 +48,14 @@ app.use(express.urlencoded({limit:'50mb'}))
 
 //Routing
 const router=require('./src/routes/api')
+
+app.set('etag',false);
 app.use('/api/v1',router)
 
 
 
 //connect front-end to Back-end
 app.use(express.static('client/dist'))
-
 
 
 //Add react front-end Routing

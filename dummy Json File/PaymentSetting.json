@@ -1,0 +1,10 @@
+{
+  "store_id":"mhr658c258328c5b",
+  "store_passwd":"mhr658c258328c5b@ssl@ssl",
+  "currency":"BDT",
+  "success_url":" http://localhost:3000/api/v1/success",
+  "fail_url":" http://localhost:3000/api/v1/fail",
+  "cancel_url":" http://localhost:3000/api/v1/cancel",
+  "ipn_url":" http://localhost:3000/api/v1/ipn",
+  "init_url":"https://sandbox.sslcommerz.com/gwprocess/v3/api.php"
+}
